@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../styles/main.css" />
+    <title>Youn's blog</title>
+  </head>
+
+  <body>
+    <h1>Youn's blog</h1>
+
+<section>
+    <nav>
+      <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="technical-learning">Technical Learning</a></li>
+      <li><a href="#reflective-learning">Reflective Learning</a></li>
+      <li><a href="blog/te-houtaewa.html">Te-Houtaewa</a></li>    
+      </ul>  
+    </nav>
+
+  <article>
+    <p>
+      <h3>What are the best practices associated with using classes vs. ids?</h3>
+     </p>
+     <p>
+      'class' and 'id' are two different attributes used in HTML and they are selectors used in CSS. They both belong to 'elements' (tags), and they work similar where we can make our work simple.       
+     </p> 
+     <p>So different between those two are 
+      <ul>
+        <li>'id' is unique selector</li>
+        <li>'class' is a selector you can use muptilple times in different tags</li> 
+      </ul>
+      For example, when you make an id for signing up a website or something, it has to be unique. On the other hand when you think of a class, it is a some sort of groups. <br>
+      Ask yourself "is there more than one element which requires the same style, now or at any time in the future?", and the answer is even "maybe", then make it a class.
+     </p>
+
+     <p>
+      <h4>Examples</h4>
+      How to use them in HTML and CSS?</p>
+
+      <p>
+        <h4>'id'</h4>
+        <div class="wp-block-codemirror-blocks-code-block code-block">
+        <pre class="hljs language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">html</span>&gt;</span>
+       
+       <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"hello-world"</span>&gt;</span>Hellow World<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+       
+       <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="language-css">
+       
+       <span class="hljs-selector-id">#hello-world</span> {
+         <span class="hljs-attribute">color</span>: white;
+         <span class="hljs-attribute">background-color</span>: red;
+       }</span></pre>
+       </div>
+      After opening 'p' element and you can type 'id' with quote marks. Then in CSS style sheet, use '#' to set "Hellow World" as white text color and red background. 
+     </p>
+
+     <p>
+     <h4>'class'</h4>
+     <div class="wp-block-codemirror-blocks-code-block code-block">
+      <pre class="hljs language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">html</span>&gt;</span>
+     
+     <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"red-background"</span>&gt;</span>Hello World<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+     <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"red-background"</span>&gt;</span>Hello Universe<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+     
+     <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="language-css">
+     
+     <span class="hljs-selector-class">.red-background</span> {
+       <span class="hljs-attribute">background-color</span>: red;
+     }</span></pre>
+     </div>
+     It is same until you type 'class' with the quote marks, then when you go to the style sheet this time use'.' in front of class to set background as red.
+     </p>
+
+     <p>
+      Hope this helped to explain 'id' and 'class'.<br>
+      Here is the <a href=https://htmlandcssguidebook.com/quizzes/html-ids-classes.html target="_blank">link</a> to html and css guidbook for some helpful exercise you can practice with. 
+     </p>
+      </article>
+    </section>
+
+<footer>
+  <p>Thanks for visiting</p>
+  <p>Contact: youndoh@gmail.com</p>
+</footer>
+
+  </body>
+
+</html>

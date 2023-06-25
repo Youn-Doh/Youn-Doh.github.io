@@ -1,4 +1,4 @@
- {
+* {
   box-sizing: border-box;
 }
 
@@ -15,7 +15,6 @@ h1 {
 nav {
   float: left;
   width: 25%;
-  padding-bottom: 641px;
   background: #e4d5b7;
   padding-top: 20px;
 }
@@ -53,6 +52,11 @@ img {
 
 body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.wp-block-codemirror-blocks-code-block code-block {
+  border-style: double;
+  background-color: grey;
 }
 
 footer {
