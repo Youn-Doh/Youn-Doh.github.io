@@ -17,6 +17,7 @@ nav {
   width: 25%;
   background: #e4d5b7;
   padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 nav ul {
@@ -63,6 +64,12 @@ footer {
   background-color: beige;
   padding: 10px;
   text-align: center;
+  font-size: 90%;
+}
+
+#copyright {
+  color: gray;
+  font-size: x-small;
 }
 
 @media screen and (max-width: 600px) {
