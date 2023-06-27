@@ -49,6 +49,7 @@ section::after {
 img {
   width: 40%;
   height: auto;
+  text-align: center;
 }
 
 body {
