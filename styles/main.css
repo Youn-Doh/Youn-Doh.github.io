@@ -52,10 +52,7 @@ img {
   text-align: center !important;
 }
 
-table,
-th,
-td,
-tr {
+table {
   width: 100%;
   box-sizing: border-box;
   display: table;
@@ -63,7 +60,6 @@ tr {
   border-collapse: collapse;
   border-color: rgb(87, 60, 60);
   vertical-align: middle;
-  text-align: left;
 }
 
 body {
