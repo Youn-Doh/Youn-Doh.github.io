@@ -54,12 +54,16 @@ img {
 
 table {
   width: 100%;
-  box-sizing: border-box;
-  display: table;
-  border: 1px solid rgb(87, 60, 60);
   border-collapse: collapse;
   border-color: rgb(87, 60, 60);
   vertical-align: middle;
+}
+
+td,
+th {
+  border: 1px solid rgb(87, 60, 60);
+  border-collapse: collapse;
+  padding: 8px;
 }
 
 body {
