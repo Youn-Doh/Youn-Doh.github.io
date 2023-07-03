@@ -52,6 +52,10 @@ img {
   text-align: center !important;
 }
 
+table {
+  width: 100%;
+}
+
 body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
