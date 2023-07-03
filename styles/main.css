@@ -52,12 +52,17 @@ img {
   text-align: center !important;
 }
 
-table {
+table,
+th,
+td,
+tr {
   width: 100%;
   box-sizing: border-box;
   display: table;
+  border: 1px rgb(87, 60, 60);
   border-color: rgb(87, 60, 60);
   vertical-align: middle;
+  text-align: left;
 }
 
 body {
